@@ -3,7 +3,7 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -20,9 +20,14 @@ if (process.env.NODE_ENV === "production") {
   uri = process.env.MONGODB_URI;
 }
 
+// mongoose.connect(uri, {
+//   useNewUrlParser: true,
+//   useFindAndModify: false,
+// });
+
 mongoose.connect(uri, {
   useNewUrlParser: true,
-  useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 
 // routes

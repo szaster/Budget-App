@@ -25,6 +25,7 @@
     "idb": "^5.0.4",
     "lite-server": "^2.5.3",
     "mongoose": "^5.10.0",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "prettier": "^2.0.5"
   }
 }
