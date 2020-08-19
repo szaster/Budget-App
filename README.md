@@ -1,20 +1,12 @@
 # Budget tracker application with online/offline access
 
-[Live website on Heroku]()
-[GitHub repo]()
+[Live website on Heroku](https://budget-app-online-offline.herokuapp.com/);
+
+[GitHub repo](https://github.com/szaster/Budget-App)
 
 ## Description
 
-This application allows a user to add expenses and deposits to their budget with or without internet connection. When entering transactions offline, transactions are added to the total history when the connection is back online.
-
-Offline Functionality:
-
-- Enter deposits offline
-- Enter expenses offline
-
-When brought back online:
-
-- Offline entries are added to tracker.
+This application allows a user to add expenses and deposits to their budget with or without internet connection. When entering transactions offline, these entries are added to the total history when the connection is back online.
 
 The application uses Mongo database with a Mongoose schema and handles routes with Express.
 
@@ -53,8 +45,8 @@ Online:
 
 ## Installation and usage
 
-No installation. Just open the [Live website on Heroku]().
-In order to look at/play with the underlying code, clone the code on your machine, install and import dependencies with `npm install`. Run the application with a command `node server.js` in a terminal. MongoDB needs to be installed on your machine as well.
+No installation. Just open the [Live website on Heroku](https://dashboard.heroku.com/apps/budget-app-online-offline).
+In order to look at/play with the underlying code, clone the code on your machine, install and import dependencies with `npm install`. Run the application with a command `npm start` in a terminal. MongoDB needs to be installed on your machine as well.
 
 ## Tech Stack
 
@@ -64,7 +56,7 @@ Express web framework for node [Express](https://www.npmjs.com/package/express) 
 
 Extension for VS code [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to autoformat the code when saving.
 
-Instructor and TAs for the help with deployment to Heroku.
+Class instructions and activities.
 
 ## License
 
@@ -74,4 +66,4 @@ MIT license.
 
 If you any additional questions you can reach me via my [Github user profile](https://www.github.com/szaster) or [write me directly](mailto:szaster@protonmail.com).
 
-You also can [file an issue]() if you find a bug.
+You also can [file an issue](https://github.com/szaster/Budget-App/issues) if you find a bug.

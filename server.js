@@ -35,6 +35,6 @@ app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
   console.log(
-    "App running on port 3000! Visit http://localhost:3000/ in your browser."
+    `App running on port ${PORT}! Visit http://localhost:3000/ in your browser.`
   );
 });
